@@ -1,0 +1,47 @@
+
+<HTML XMLns="http://www.w3.org/1999/xHTML"> 
+<!--
+	Student ID : 1784757
+	Name: Rashmi Patil
+	Functonality : This page is provided to customers to register for ShopOnline application.
+			 This page will take user details like first name, surname and email address, save in the database if valid and send a confirmation email to the customer
+--> 
+  <head> 
+    <title>Registration Page</title> 
+		<link rel="stylesheet" type="text/css" href="Shoponline_Style.css">
+		<script type="text/javascript" src="register.js" ></script>
+  </head> 
+  <body>
+<div id="container" style="width:100%">
+<div id="space" style="width:10%;float:left;"></div>
+  <div id="header" style="width:90%;float:right;"><H1>ShopOnline</H1></div>
+</div>
+	<ul>
+		<a href="login.html"></a>
+	</ul>
+  <form>
+	<div id="container2" style="width:100%">
+	<div id="space2" style="width:10%;float:left;"></div>
+  	<div id="fieldset" style="width:90%;float:right;">
+		<label> Registration </label>
+		<table><tr><td align="right">To register a new account with ShopOnline please complete the registration form below. To Login</td><td align="left">
+			<b><a href="login.html" style="color:black;width:80px">click here</a></b></td></tr></table>
+
+		<fieldset style="width:50%">
+ 		 <legend>Registration Details</legend>		
+		<p><span style="color:red">*</span> Required fields.</p> 
+		<table> <tr> <td align="right">		
+		First Name: <span style="color:red"> * </span></td><td><input type="text" name="namefield" size=30 ID="txtfname"> </label></td></tr>
+		<tr><td align="right">
+		Surname: <span style="color:red"> * </span></td><td><input type="text" name="surnamefield" size=30 ID="txtsname"> </label></td></tr>
+		<tr><td align="right">
+		Email: <span style="color:red"> * </span></td><td><input type="text" name="emailfield" size=50 ID="txtemail"> </label></td></tr>
+		<tr><td>
+		</td><td><input type="submit" value="Register" onclick="fnRegister(); return false;"/><input type="submit" value="Reset" onclick="fnReset()"/></td></tr></table>
+		</fieldset>  
+	<div id="result"></div>
+</div>
+</div>
+</form>
+</body>
+</HTML>

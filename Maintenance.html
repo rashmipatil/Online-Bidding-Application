@@ -1,0 +1,44 @@
+
+<HTML XMLns="http://www.w3.org/1999/xHTML"> 
+<!--
+	Student ID : 1784757
+	Name: Rashmi Patil
+	Functonality : This page is provided to Admin to process the auctioned items.
+		Process Auction button processes the items for sold or failed
+		Generate report button displays the revenue for sold, failed and total revenue
+--> 
+  <head> 
+    <title>Login Page</title> 
+		<link rel="stylesheet" type="text/css" href="Shoponline_Style.css">
+		<script type="text/javascript" src="maintenance.js" ></script>
+		<script type="text/javascript" src="signout.js" ></script>
+  </head> 
+  <body>
+<div id="container" style="width:100%">
+<div id="space" style="width:10%;float:left;"></div>
+  <div id="header" style="width:90%;float:right;"><H1>ShopOnline</H1></div>
+</div>
+	<ul>
+		<li><a href="listing.php">Listing</a></li>
+		<li><a href="bidding.php">Bidding</a></li>
+		<li><a href="Maintenance.html">Maintenance</a></li>
+		<li align="right"><input type="submit" value="Signout" name="Signout" onclick="fnSignout()";/></li>
+	</ul>
+  <form>
+	<div id="container2" style="width:100%">
+	<div id="space2" style="width:10%;float:left;"></div>
+  	<div id="fieldset" style="width:90%;float:right;">
+		<label> Welcome </label>
+		<div id="divPAI">
+		<input type="submit" value="Process Auction Items" onclick="fnProcessAuctionItems();return false;">  <br/>
+		<p><span id="confirmation"></span></p>
+		</div><br/>
+		<div id="divGenerateReport">
+		<input type="submit" value="Generate Report" onclick="fnGenerateReport();return false;"> 
+		<p><span id="report"></span></p>
+		</div>
+</div>
+</div>
+</form>
+</body> 
+</HTML>

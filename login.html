@@ -1,0 +1,45 @@
+
+<HTML XMLns="http://www.w3.org/1999/xHTML"> 
+<!--
+	Student ID : 1784757
+	Name: Rashmi Patil
+	Functonality : This page is provided to customers to Login into ShopOnline application.
+			 This page will take email address and password, validate data against the database values if valid redirects to home page else
+				error message is displayed.
+--> 
+  <head> 
+    <title>Login Page</title> 
+		<link rel="stylesheet" type="text/css" href="Shoponline_Style.css">
+		<script type="text/javascript" src="login.js" ></script>
+  </head> 
+  <body>
+<div id="container" style="width:100%">
+<div id="space" style="width:10%;float:left;"></div>
+  <div id="header" style="width:90%;float:right;"><H1>ShopOnline</H1></div>
+</div>
+	<ul>
+	</ul>
+  <!-- <form method="post"> -->
+	<form>
+	<div id="container2" style="width:100%">
+	<div id="space2" style="width:10%;float:left;"></div>
+  	<div id="fieldset" style="width:90%;float:right;">
+		<label> Welcome </label>
+		<table><tr><td align="right">Please login below or to register as new seller or buyer </td><td align="left">
+			<a href="register.html" style="color:black;width:80px">register here</a></td></tr></table>
+		<fieldset style="width:50%">
+ 		 <legend>Login Details</legend>		
+		<p><span style="color:red">*</span> Required fields.</p> 
+		<table>
+		<tr><td align="right">
+		Email: <span style="color:red"> * </span></td><td><input type="text" name="emailfield" id="txtemail" size=50> </label></td></tr> 
+		<tr> <td align="right">		
+		Password: <span style="color:red"> * </span></td><td><input type="password" name="pwdfield" id="txtpwd" size=30> </label></td></tr>
+		<tr><td>
+		</td><td><input type="submit" value="Login" onclick=" fnValidateLogin();return false;"/><input type="submit" value="Reset"/></td></tr></table>
+		</fieldset>  
+</div>
+</div>
+</form>
+</body> 
+</HTML>

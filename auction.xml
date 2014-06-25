@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Items>
+<item>
+<Number>1</Number>
+<Name>Pen</Name>
+<Category>Educational</Category>
+<Description>Used parker pen in working condition</Description>
+<StartPrice>0.00</StartPrice>
+<ReservePrice>5.00</ReservePrice>
+<BuyItNowPrice>10.00</BuyItNowPrice>
+<Duration>0:6:30</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:13</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Vivek </ListedBy>
+<Bidder/><CurrentBidPrice>0.00</CurrentBidPrice>
+</item>
+<item>
+<Number>2</Number>
+<Name>Object first with Java</Name>
+<Category>Books</Category>
+<Description>Object first with java book</Description>
+<StartPrice>50.00</StartPrice>
+<ReservePrice>80.00</ReservePrice>
+<BuyItNowPrice>150.00</BuyItNowPrice>
+<Duration>7:0:0</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:14</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Vivek </ListedBy>
+<Bidder/>
+<CurrentBidPrice>50.00</CurrentBidPrice>
+</item>
+<item>
+<Number>3</Number>
+<Name>Mobile phone</Name>
+<Category>Electronics</Category>
+<Description>Second hand samsung galaxy s3</Description>
+<StartPrice>200.00</StartPrice>
+<ReservePrice>400.00</ReservePrice>
+<BuyItNowPrice>500.00</BuyItNowPrice>
+<Duration>0:0:30</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:15</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Vivek </ListedBy>
+<Bidder/>
+<CurrentBidPrice>200.00</CurrentBidPrice>
+</item>
+<item>
+<Number>4</Number>
+<Name>Matress</Name>
+<Category>Living</Category>
+<Description>Brand new matress</Description>
+<StartPrice>300.00</StartPrice>
+<ReservePrice>400.00</ReservePrice>
+<BuyItNowPrice>800.00</BuyItNowPrice>
+<Duration>2:12:2</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:16</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Vivek </ListedBy>
+<Bidder/>
+<CurrentBidPrice>300.00</CurrentBidPrice>
+</item>
+<item>
+<Number>5</Number>
+<Name>Water bottle</Name>
+<Category>Stationary</Category>
+<Description>Brand new water bottles</Description>
+<StartPrice>0.00</StartPrice>
+<ReservePrice>5.00</ReservePrice>
+<BuyItNowPrice>50.00</BuyItNowPrice>
+<Duration>0:0:1</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:20</StartTime>
+<Status>failed</Status>
+<ListedBy>Vivek</ListedBy>
+<Bidder/>
+<CurrentBidPrice>0.00</CurrentBidPrice>
+</item>
+<item>
+<Number>6</Number>
+<Name>Samsung Galaxy Note 2</Name>
+<Category>Electronics</Category>
+<Description>A smart phone </Description>
+<StartPrice>500.00</StartPrice>
+<ReservePrice>800.00</ReservePrice>
+<BuyItNowPrice>1000.00</BuyItNowPrice>
+<Duration>0:0:2</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:30</StartTime>
+<Status>sold</Status>
+<ListedBy>Tanvi</ListedBy>
+<Bidder>Tanvi</Bidder>
+<CurrentBidPrice>1500.00</CurrentBidPrice>
+</item>
+<item>
+<Number>7</Number>
+<Name>Cinderella School Bag</Name>
+<Category>Educational</Category>
+<Description>A School bag to carry Books</Description>
+<StartPrice>50.00</StartPrice>
+<ReservePrice>100.00</ReservePrice>
+<BuyItNowPrice>110.00</BuyItNowPrice>
+<Duration>0:0:3</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:35</StartTime>
+<Status>sold</Status>
+<ListedBy>Riya</ListedBy>
+<Bidder>Tanvi</Bidder>
+<CurrentBidPrice>105.00</CurrentBidPrice>
+</item>
+<item>
+<Number>8</Number>
+<Name>Speakers</Name>
+<Category>Electronics</Category>
+<Description>Bose Loud Speakers  to listen to Music</Description>
+<StartPrice>1000.00</StartPrice>
+<ReservePrice>1500.00</ReservePrice>
+<BuyItNowPrice>2000.00</BuyItNowPrice>
+<Duration>5:0:0</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:40</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Tanvi</ListedBy>
+<Bidder>Vivek</Bidder>
+<CurrentBidPrice>1600.00</CurrentBidPrice>
+</item>
+<item>
+<Number>9</Number>
+<Name>Godrej Fridge</Name>
+<Category>Electronics</Category>
+<Description>15 Litre Godrej Fridge for your Kitchen</Description>
+<StartPrice>100.00</StartPrice>
+<ReservePrice>500.00</ReservePrice>
+<BuyItNowPrice>1000.00</BuyItNowPrice>
+<Duration>10:0:0</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:41</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Tanvi</ListedBy>
+<Bidder>Vivek</Bidder>
+<CurrentBidPrice>200.00</CurrentBidPrice>
+</item>
+<item>
+<Number>10</Number>
+<Name>Whirlpool Microwave Oven</Name>
+<Category>Electronics</Category>
+<Description>Whirlpool Microwave Oven 20 Litre Conventional </Description>
+<StartPrice>800.00</StartPrice>
+<ReservePrice>1200.00</ReservePrice>
+<BuyItNowPrice>1500.00</BuyItNowPrice>
+<Duration>15:0:0</Duration>
+<StartDate>2013-05-24</StartDate>
+<StartTime>18:43</StartTime>
+<Status>in-progress</Status>
+<ListedBy>Tanvi</ListedBy>
+<Bidder>Vivek</Bidder>
+<CurrentBidPrice>900.00</CurrentBidPrice>
+</item>
+</Items>
